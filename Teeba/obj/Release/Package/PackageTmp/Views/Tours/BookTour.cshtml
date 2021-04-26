@@ -1,0 +1,40 @@
+﻿@model Teeba.Models.Tour
+
+@{
+    ViewBag.Title = "BookTour";
+    ViewBag.HeaderImage = Model.Image;
+}
+
+@section HeaderContent
+{
+    <div class="col-md-12 col-md-offset-0 text-center">
+        <div class="row row-mt-15em">
+            <div class="col-md-12 mt-text animate-box" data-animate-effect="fadeInUp">
+                <h1 style="font-weight:bold">@Model.Title</h1>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="gtco-section" style="padding: 5em 0">
+    <div class="gtco-container" style="box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19); padding: 3em 3em ">
+        <div class="row">
+            <div class="col-lg-12 col-md-6 col-sm-12" style="padding-left:25px ; padding-right:25px">
+                <h1>@Model.Title</h1>
+
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <label class="sr-only" for="name">Ticket Barrier : </label>
+                        <input type="text" id="name" class="form-control" placeholder="Name Of Ticket Barrier" required>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <label class="sr-only" for="email">Email : </label>
+                        <input type="text" id="email" class="form-control" placeholder="Ticket Barrier Email" required>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

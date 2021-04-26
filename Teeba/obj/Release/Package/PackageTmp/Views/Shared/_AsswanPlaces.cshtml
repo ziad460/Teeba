@@ -1,0 +1,20 @@
+﻿@model List<Teeba.Models.AsswanPlaces>
+
+@foreach (var item in Model)
+{
+    if (item.Location != "Activity")
+    {
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <a href="/Aswan/PlaceDetails/@item.ID" class="fh5co-card-item">
+                <figure>
+                    <img src="../../Content/images/Asswan/@item.PlacesImages.Image1" alt="Image" class="img-responsive">
+                </figure>
+                <div class="fh5co-text">
+                    <h2>@item.Name</h2>
+                    <p>@item.Short_Describtion...</p>
+                    <p><span class="btn btn-primary">Descover Place</span></p>
+                </div>
+            </a>
+        </div>
+    }
+}

@@ -1,0 +1,150 @@
+﻿@model Teeba.Models.AsswanPlaces
+
+@{
+    ViewBag.Title = "PlaceDetails";
+    ViewBag.HeaderImage = Model.PlacesImages.Image1;
+}
+
+@section HeaderContent
+{
+    <div class="col-md-12 col-md-offset-0 text-center">
+        <div class="row row-mt-15em">
+            <div class="col-md-12 mt-text animate-box" data-animate-effect="fadeInUp">
+                <h1 style="font-weight:bold">@Model.Name</h1>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="gtco-section" style="padding: 4em 0">
+    <div class="gtco-container" style="padding: 3em 3em">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12" style="padding-left:25px ; padding-right:25px">
+                <div style="display:block">
+                    <h1 style="font-weight:bold">@Model.Name</h1>
+                    <a href="#" class="ti-heart" style="float:right"></a>
+                </div>
+                <p>
+                    <span class="fa fa-star" style="color: orange"></span>
+                    <span class="fa fa-star" style="color: orange"></span>
+                    <span class="fa fa-star" style="color: orange"></span>
+                    <span class="fa fa-star" style="color: orange"></span>
+                    <span class="fa fa-star"></span>
+                    <a href="#" style="text-decoration:underline">2,890 Reviews</a>
+                </p>
+                <p style="font-size:16px ; color:rgba(0, 0, 0, 0.7)" id="translation">
+                    #1 of 50 things to do in Aswan <br />
+                    Hestoric Sites , Ancient Ruins
+                </p>
+                <p id="Describtion">
+                    @Model.Long_Describtion
+                    <span style="padding-left:10px">
+                        @Ajax.ActionLink("Read In Arabic..." , "Translate" , "Aswan" , new { id = Model.ID } ,
+                            new AjaxOptions { UpdateTargetId = "Describtion" } , null)
+                    </span>
+                </p>
+                @if (Model.Entrance_Egyptian_Ticket != 0)
+                {
+                    <p> <span style="font-weight:bold">Ticket For Foreigner : </span> @Model.Entrance_Foreigner_Ticket.0 LE </p>
+                    <p> <span style="font-weight:bold">Ticket For Egyptian : </span> @Model.Entrance_Egyptian_Ticket.0 LE </p>
+                    <p> <span style="font-weight:bold">Opining From : </span> 09:00 AM - 09:00 PM</p>
+                }
+                else
+                {
+                    <p><span style="font-weight:bold">Free Tour</span></p>
+                }
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12" style="height:350px">
+                <a href="../../Content/images/Asswan/@Model.PlacesImages.Image1" class="fh5co-card-item image-popup">
+                    <figure style="height:350px">
+                        <div class="overlay"><i class="ti-plus"></i></div>
+                        <img src="../../Content/images/Asswan/@Model.PlacesImages.Image1" alt="Image" class="img-responsive">
+                    </figure>
+                    <div class="fh5co-text">
+                        <h2 style="font-weight:bold">@Model.Name</h2>
+                        <p>@Model.Short_Describtion</p>
+                    </div>
+                </a>
+                <a href="../../Content/images/Asswan/@Model.PlacesImages.Image2" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Asswan/@Model.PlacesImages.Image3" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Asswan/@Model.PlacesImages.Image4" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Asswan/@Model.PlacesImages.Image5" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Asswan/@Model.PlacesImages.Image6" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Asswan/@Model.PlacesImages.Image7" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Asswan/@Model.PlacesImages.Image8" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Asswan/@Model.PlacesImages.Image9" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Asswan/@Model.PlacesImages.Image10" class="fh5co-card-item image-popup"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gtco-section">
+    <div class="gtco-container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+                <h2>Trip With Your Favourite Destination Aswan</h2>
+                <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var item in ViewBag.Places)
+            {
+                if (item.Location != "Activity")
+                {
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <a href="/Aswan/PlaceDetails/@item.ID" class="fh5co-card-item">
+                            <figure>
+                                <img src="../../Content/images/Asswan/@item.PlacesImages.Image1" alt="Image" class="img-responsive">
+                            </figure>
+                            <div class="fh5co-text">
+                                <h2>@item.Name</h2>
+                                <p>@item.Short_Describtion...</p>
+                                <p><span class="btn btn-primary">Descover Place</span></p>
+                            </div>
+                        </a>
+                    </div>
+                }
+            }
+        </div>
+
+        <hr />
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+                <h2>Activities that you can enjoy inside the city</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            @foreach (var item in ViewBag.Places)
+            {
+                if (item.Location == "Activity")
+                {
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <a href="/Aswan/PlaceDetails/@item.ID" class="fh5co-card-item">
+                            <figure>
+                                <div class="overlay"></div>
+                                <img src="../../Content/images/Asswan/@item.PlacesImages.Image1" alt="Image" class="img-responsive">
+                            </figure>
+                            <div class="fh5co-text">
+                                <h2>@item.Name</h2>
+                                <p>
+                                    @item.Short_Describtion
+                                </p>
+                                <p><span class="btn btn-primary">See Details..</span></p>
+                            </div>
+                        </a>
+                    </div>
+                }
+            }
+        </div>
+
+    </div>
+</div>
+
+@section scripts
+{
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+}

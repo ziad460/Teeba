@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>F:\Dot Net\mvc\UpperEgypt</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/23/2017 13:15:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/23/2017 13:15:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>04/24/2018 12:47:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>04/24/2018 12:47:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>04/24/2018 12:47:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>02/13/2018 16:28:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>02/13/2018 16:28:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>02/13/2018 16:28:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>02/13/2018 16:28:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>02/13/2018 16:28:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>02/13/2018 16:28:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>02/13/2018 16:28:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>02/13/2018 16:28:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>02/13/2018 16:28:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/18/2018 09:44:54</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/27/2012 13:00:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/01/2018 12:16:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/01/2018 12:16:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/Teeba.dll">
+      <publishTime>03/25/2021 15:48:55</publishTime>
+    </File>
+    <File Include="bin/Teeba.pdb">
+      <publishTime>03/25/2021 15:48:55</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 13:57:34</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>03/10/2021 15:51:01</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>03/10/2021 15:51:01</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>03/10/2021 15:51:01</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>03/10/2021 15:51:01</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>03/20/2021 06:38:19</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>03/10/2021 15:51:01</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>03/10/2021 15:51:01</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>03/10/2021 15:51:00</publishTime>
+    </File>
+    <File Include="Content/css/animate.css">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap-datepicker.min.css">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap.css">
+      <publishTime>03/24/2021 23:34:50</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap.css.map">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/css/flexslider.css">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/css/icomoon.css">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/css/magnific-popup.css">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/css/minestyle.css">
+      <publishTime>03/25/2021 14:45:07</publishTime>
+    </File>
+    <File Include="Content/css/mystyle.css">
+      <publishTime>03/25/2021 14:48:07</publishTime>
+    </File>
+    <File Include="Content/css/owl.carousel.min.css">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/css/owl.theme.default.min.css">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/css/style.css">
+      <publishTime>03/25/2021 14:34:05</publishTime>
+    </File>
+    <File Include="Content/css/style.css.map">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/css/themify-icons.css">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/fonts/bootstrap/glyphicons-halflings-regular.eot">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/fonts/bootstrap/glyphicons-halflings-regular.svg">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/fonts/bootstrap/glyphicons-halflings-regular.ttf">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/fonts/bootstrap/glyphicons-halflings-regular.woff">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/fonts/bootstrap/glyphicons-halflings-regular.woff2">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/fonts/icomoon/icomoon.eot">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/fonts/icomoon/icomoon.svg">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/fonts/icomoon/icomoon.ttf">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/fonts/icomoon/icomoon.woff">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/fonts/themify-icons/themify.eot">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/fonts/themify-icons/themify.svg">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/fonts/themify-icons/themify.ttf">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/fonts/themify-icons/themify.woff">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/AbuSimble1.jpg">
+      <publishTime>03/09/2021 02:08:24</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/AbuSimble2.jpg">
+      <publishTime>03/09/2021 01:37:50</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/AbuSimble3.jpg">
+      <publishTime>03/09/2021 02:08:06</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/AbuSimble4.jpg">
+      <publishTime>03/09/2021 02:07:16</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/AbuSimble5.jpg">
+      <publishTime>03/14/2021 00:37:56</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Aswan1.jpg">
+      <publishTime>03/14/2021 00:41:25</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Aswan10.jpg">
+      <publishTime>03/14/2021 00:46:44</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Aswan2.jpg">
+      <publishTime>03/14/2021 00:27:29</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Aswan3.jpg">
+      <publishTime>03/14/2021 00:40:20</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Aswan4.jpg">
+      <publishTime>03/14/2021 00:26:51</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Aswan5.jpg">
+      <publishTime>03/14/2021 00:31:47</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Aswan6.jpg">
+      <publishTime>03/14/2021 00:43:21</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Aswan7.jpg">
+      <publishTime>03/14/2021 00:35:13</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Aswan8.jpg">
+      <publishTime>03/14/2021 00:37:09</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Aswan9.jpg">
+      <publishTime>03/14/2021 00:43:50</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Komompo1.jpg">
+      <publishTime>03/09/2021 01:58:10</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Komompo2.jpg">
+      <publishTime>03/09/2021 01:57:37</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Komompo3.jpg">
+      <publishTime>03/09/2021 01:58:31</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Nile1.jpg">
+      <publishTime>03/09/2021 02:02:51</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Nile2.jpg">
+      <publishTime>03/09/2021 02:02:26</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Nile3.jpg">
+      <publishTime>03/09/2021 02:01:42</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Nile4.jpg">
+      <publishTime>03/09/2021 02:03:38</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/NileTrip1.jpg">
+      <publishTime>03/09/2021 01:27:36</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/NileTrip2.jpg">
+      <publishTime>03/09/2021 01:20:50</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/NileTrip3.jpg">
+      <publishTime>03/09/2021 01:21:17</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/NileTrip4.jpg">
+      <publishTime>03/09/2021 01:21:30</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/NileTrip5.jpg">
+      <publishTime>03/09/2021 01:24:16</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/NileTrip6.jpg">
+      <publishTime>03/09/2021 01:17:39</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/NileTrip7.jpg">
+      <publishTime>03/09/2021 01:30:11</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Nobian1.jpg">
+      <publishTime>03/09/2021 01:41:36</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Nobian2.jpg">
+      <publishTime>03/09/2021 01:41:26</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Nobian3.jpg">
+      <publishTime>03/09/2021 01:42:33</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Nobian4.jpg">
+      <publishTime>03/09/2021 01:43:04</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Nobian5.jpg">
+      <publishTime>03/09/2021 01:44:22</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Nobian6.jpg">
+      <publishTime>03/09/2021 01:44:55</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/NubianPeopel1.jpg">
+      <publishTime>03/21/2021 03:22:30</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/NubianPeopel2.jpg">
+      <publishTime>03/21/2021 03:20:28</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/NubianPeopel3.jpg">
+      <publishTime>03/21/2021 03:24:44</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/NubianPeopel4.jpg">
+      <publishTime>03/21/2021 03:20:08</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/NubianPeopel5.jpg">
+      <publishTime>03/21/2021 03:23:45</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/NubianPeopel6.jpg">
+      <publishTime>03/21/2021 03:24:11</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Phiala1.jpg">
+      <publishTime>03/09/2021 01:36:08</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Phiala2.jpg">
+      <publishTime>03/09/2021 01:35:14</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Phiala3.jpg">
+      <publishTime>03/09/2021 01:35:44</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Phiala4.jpg">
+      <publishTime>03/09/2021 01:34:41</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Phiala5.jpg">
+      <publishTime>03/09/2021 01:49:24</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Phiala6.jpg">
+      <publishTime>03/09/2021 01:46:41</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Seheil1.jpg">
+      <publishTime>03/09/2021 01:50:48</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Seheil2.jpg">
+      <publishTime>03/09/2021 01:51:51</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Seheil3.jpg">
+      <publishTime>03/09/2021 01:52:27</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Seheil4.jpg">
+      <publishTime>03/09/2021 01:53:52</publishTime>
+    </File>
+    <File Include="Content/images/Asswan/Seheil5.jpg">
+      <publishTime>11/26/2018 00:19:52</publishTime>
+    </File>
+    <File Include="Content/images/Home/AbuSimble1.jpg">
+      <publishTime>03/09/2021 01:37:50</publishTime>
+    </File>
+    <File Include="Content/images/Home/AswanHeader.jpg">
+      <publishTime>03/14/2021 00:26:51</publishTime>
+    </File>
+    <File Include="Content/images/Home/Ballon1.jpg">
+      <publishTime>03/09/2021 04:04:52</publishTime>
+    </File>
+    <File Include="Content/images/Home/Banana1.jpg">
+      <publishTime>03/09/2021 03:35:16</publishTime>
+    </File>
+    <File Include="Content/images/Home/Contact.jpg">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/images/Home/Habu1.jpg">
+      <publishTime>03/09/2021 03:15:33</publishTime>
+    </File>
+    <File Include="Content/images/Home/Hatshepsut1.jpg">
+      <publishTime>03/09/2021 02:41:05</publishTime>
+    </File>
+    <File Include="Content/images/Home/HomeHeader.jpg">
+      <publishTime>03/10/2021 10:56:25</publishTime>
+    </File>
+    <File Include="Content/images/Home/Karnak1.jpg">
+      <publishTime>03/09/2021 02:21:46</publishTime>
+    </File>
+    <File Include="Content/images/Home/KingsVally1.jpg">
+      <publishTime>03/09/2021 02:43:13</publishTime>
+    </File>
+    <File Include="Content/images/Home/Komompo1.jpg">
+      <publishTime>03/09/2021 01:57:37</publishTime>
+    </File>
+    <File Include="Content/images/Home/Luxor1.jpg">
+      <publishTime>03/13/2021 23:51:35</publishTime>
+    </File>
+    <File Include="Content/images/Home/LuxorHeader.jpg">
+      <publishTime>03/22/2021 14:36:55</publishTime>
+    </File>
+    <File Include="Content/images/Home/LuxorTemple1.jpg">
+      <publishTime>03/09/2021 02:26:43</publishTime>
+    </File>
+    <File Include="Content/images/Home/Museum1.jpg">
+      <publishTime>03/09/2021 03:12:01</publishTime>
+    </File>
+    <File Include="Content/images/Home/Nile1.jpg">
+      <publishTime>03/09/2021 02:01:42</publishTime>
+    </File>
+    <File Include="Content/images/Home/NileTrip1.jpg">
+      <publishTime>03/09/2021 01:27:36</publishTime>
+    </File>
+    <File Include="Content/images/Home/NileTrip2.jpg">
+      <publishTime>03/09/2021 01:20:50</publishTime>
+    </File>
+    <File Include="Content/images/Home/Nobian1.jpg">
+      <publishTime>03/09/2021 01:41:36</publishTime>
+    </File>
+    <File Include="Content/images/Home/Nobles1.jpg">
+      <publishTime>03/14/2021 18:55:31</publishTime>
+    </File>
+    <File Include="Content/images/Home/NubianPeopel1.jpg">
+      <publishTime>03/21/2021 03:22:30</publishTime>
+    </File>
+    <File Include="Content/images/Home/NubianPeopel3.jpg">
+      <publishTime>03/21/2021 03:24:44</publishTime>
+    </File>
+    <File Include="Content/images/Home/Phiala1.jpg">
+      <publishTime>03/10/2021 10:56:25</publishTime>
+    </File>
+    <File Include="Content/images/Home/Seheil1.jpg">
+      <publishTime>03/09/2021 01:51:51</publishTime>
+    </File>
+    <File Include="Content/images/Home/Tahneet1.jpg">
+      <publishTime>03/09/2021 03:21:45</publishTime>
+    </File>
+    <File Include="Content/images/Home/ToursHeader.jpg">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/images/loader.gif">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Ballon1.jpg">
+      <publishTime>03/09/2021 04:04:52</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Ballon2.jpg">
+      <publishTime>03/09/2021 04:04:32</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Ballon3.jpg">
+      <publishTime>04/24/2017 06:29:44</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Ballon4.jpg">
+      <publishTime>03/09/2021 04:06:06</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Ballon5.jpg">
+      <publishTime>03/09/2021 04:06:29</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Ballon6.jpg">
+      <publishTime>03/09/2021 01:22:45</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Banana1.jpg">
+      <publishTime>03/09/2021 03:35:33</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Banana2.jpg">
+      <publishTime>03/12/2021 22:02:34</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Banana3.jpg">
+      <publishTime>03/09/2021 03:37:02</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Banana4.jpg">
+      <publishTime>03/09/2021 03:37:28</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Banana5.jpg">
+      <publishTime>03/09/2021 03:35:16</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Banana6.jpg">
+      <publishTime>03/09/2021 03:41:17</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Banana7.jpg">
+      <publishTime>03/09/2021 03:41:36</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Habu1.jpg">
+      <publishTime>03/09/2021 03:16:57</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Habu2.jpg">
+      <publishTime>03/09/2021 03:17:52</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Habu3.jpg">
+      <publishTime>03/09/2021 03:15:33</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Habu4.jpg">
+      <publishTime>03/09/2021 03:18:41</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Hatshepsut1.jpg">
+      <publishTime>03/09/2021 02:34:27</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Hatshepsut2.jpg">
+      <publishTime>03/09/2021 02:35:45</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Hatshepsut3.jpg">
+      <publishTime>03/09/2021 02:41:05</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Hatshepsut4.jpg">
+      <publishTime>03/12/2021 20:37:10</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Hatshepsut5.jpg">
+      <publishTime>03/12/2021 20:36:47</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Karnak1.jpg">
+      <publishTime>03/28/2016 21:38:48</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Karnak2.jpg">
+      <publishTime>03/09/2021 02:19:15</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Karnak3.jpg">
+      <publishTime>03/09/2021 02:20:11</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Karnak4.jpg">
+      <publishTime>03/09/2021 02:20:32</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Karnak5.jpg">
+      <publishTime>03/09/2021 02:21:02</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Karnak6.jpg">
+      <publishTime>03/09/2021 02:21:46</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Karnak7.jpg">
+      <publishTime>03/09/2021 02:23:17</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Karnak8.jpg">
+      <publishTime>03/09/2021 02:23:36</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Karnak9.jpg">
+      <publishTime>03/09/2021 02:24:00</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/KingsVally1.jpg">
+      <publishTime>03/09/2021 02:44:51</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/KingsVally2.jpg">
+      <publishTime>03/09/2021 02:43:13</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/KingsVally3.jpg">
+      <publishTime>03/09/2021 02:44:29</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/KingsVally4.jpg">
+      <publishTime>03/09/2021 02:45:29</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/KingsVally5.jpg">
+      <publishTime>03/09/2021 02:45:13</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/KingsVally6.jpg">
+      <publishTime>03/09/2021 03:48:29</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/KingsVally7.jpg">
+      <publishTime>03/09/2021 02:46:19</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Luxor1.jpg">
+      <publishTime>03/03/2021 13:24:09</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Luxor10.jpg">
+      <publishTime>03/09/2021 03:30:00</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Luxor2.jpg">
+      <publishTime>11/29/2020 23:31:21</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Luxor3.jpg">
+      <publishTime>11/29/2020 23:31:18</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Luxor4.jpg">
+      <publishTime>12/29/2017 14:33:26</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Luxor5.jpg">
+      <publishTime>03/09/2021 03:47:29</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Luxor6.jpg">
+      <publishTime>03/22/2021 14:37:04</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Luxor7.jpg">
+      <publishTime>03/09/2021 03:43:22</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Luxor8.jpg">
+      <publishTime>10/25/2019 16:39:50</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Luxor9.jpg">
+      <publishTime>03/09/2021 03:28:12</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/LuxorTemple1.jpg">
+      <publishTime>03/09/2021 02:25:26</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/LuxorTemple2.jpg">
+      <publishTime>03/09/2021 02:33:23</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/LuxorTemple3.jpg">
+      <publishTime>03/09/2021 02:26:43</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/LuxorTemple4.jpg">
+      <publishTime>03/09/2021 02:27:37</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/LuxorTemple5.jpg">
+      <publishTime>03/09/2021 02:28:12</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/LuxorTemple6.jpg">
+      <publishTime>03/09/2021 02:29:06</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/LuxorTemple7.jpg">
+      <publishTime>03/09/2021 02:29:43</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Museum1.jpg">
+      <publishTime>03/09/2021 03:08:32</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Museum2.jpg">
+      <publishTime>03/09/2021 03:09:37</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Museum3.jpg">
+      <publishTime>03/09/2021 03:10:55</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Museum4.jpg">
+      <publishTime>03/09/2021 03:11:44</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Museum5.jpg">
+      <publishTime>03/09/2021 03:13:57</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Museum6.jpg">
+      <publishTime>03/09/2021 03:12:01</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/NileTrip1.jpg">
+      <publishTime>03/09/2021 01:27:36</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/NileTrip2.jpg">
+      <publishTime>03/09/2021 01:20:50</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/NileTrip3.jpg">
+      <publishTime>03/09/2021 01:21:17</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/NileTrip4.jpg">
+      <publishTime>03/09/2021 01:21:30</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/NileTrip5.jpg">
+      <publishTime>03/09/2021 01:24:16</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/NileTrip6.jpg">
+      <publishTime>03/09/2021 01:17:39</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/NileTrip7.jpg">
+      <publishTime>03/09/2021 01:30:11</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Nobles1.jpg">
+      <publishTime>03/14/2021 18:55:31</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Nobles2.jpg">
+      <publishTime>03/14/2021 18:56:13</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Nobles3.jpg">
+      <publishTime>03/14/2021 18:58:01</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Tahneet1.jpg">
+      <publishTime>03/09/2021 03:20:36</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Tahneet2.jpg">
+      <publishTime>03/09/2021 03:21:45</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Tahneet3.jpg">
+      <publishTime>03/09/2021 03:22:40</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Tahneet4.jpg">
+      <publishTime>03/09/2021 03:24:09</publishTime>
+    </File>
+    <File Include="Content/images/Luxor/Tahneet5.jpg">
+      <publishTime>03/09/2021 03:24:24</publishTime>
+    </File>
+    <File Include="Content/images/Nile_Tour/NileTrip1.jpg">
+      <publishTime>03/09/2021 01:27:36</publishTime>
+    </File>
+    <File Include="Content/images/Nile_Tour/NileTrip2.jpg">
+      <publishTime>03/09/2021 01:20:50</publishTime>
+    </File>
+    <File Include="Content/images/Nile_Tour/NileTrip3.jpg">
+      <publishTime>03/09/2021 01:21:17</publishTime>
+    </File>
+    <File Include="Content/images/Nile_Tour/NileTrip4.jpg">
+      <publishTime>03/09/2021 01:21:30</publishTime>
+    </File>
+    <File Include="Content/images/Nile_Tour/NileTrip5.jpg">
+      <publishTime>03/09/2021 01:24:16</publishTime>
+    </File>
+    <File Include="Content/images/Nile_Tour/NileTrip6.jpg">
+      <publishTime>03/09/2021 01:17:39</publishTime>
+    </File>
+    <File Include="Content/images/Nile_Tour/NileTrip7.jpg">
+      <publishTime>03/09/2021 01:30:11</publishTime>
+    </File>
+    <File Include="Content/images/Tours/Tour1.jpg">
+      <publishTime>03/09/2021 04:06:06</publishTime>
+    </File>
+    <File Include="Content/images/Tours/Tour10.jpg">
+      <publishTime>03/09/2021 01:24:16</publishTime>
+    </File>
+    <File Include="Content/images/Tours/Tour11.jpg">
+      <publishTime>03/09/2021 01:17:39</publishTime>
+    </File>
+    <File Include="Content/images/Tours/Tour12.jpg">
+      <publishTime>03/09/2021 01:49:24</publishTime>
+    </File>
+    <File Include="Content/images/Tours/Tour13.jpg">
+      <publishTime>11/26/2018 00:19:52</publishTime>
+    </File>
+    <File Include="Content/images/Tours/Tour2.jpg">
+      <publishTime>03/09/2021 03:35:33</publishTime>
+    </File>
+    <File Include="Content/images/Tours/Tour3.jpg">
+      <publishTime>03/09/2021 03:18:41</publishTime>
+    </File>
+    <File Include="Content/images/Tours/Tour4.jpg">
+      <publishTime>03/09/2021 02:34:27</publishTime>
+    </File>
+    <File Include="Content/images/Tours/Tour5.jpg">
+      <publishTime>03/09/2021 03:28:12</publishTime>
+    </File>
+    <File Include="Content/images/Tours/Tour6.jpg">
+      <publishTime>03/09/2021 02:25:26</publishTime>
+    </File>
+    <File Include="Content/images/Tours/Tour7.jpg">
+      <publishTime>03/09/2021 03:13:57</publishTime>
+    </File>
+    <File Include="Content/images/Tours/Tour8.jpg">
+      <publishTime>03/09/2021 01:27:36</publishTime>
+    </File>
+    <File Include="Content/images/Tours/Tour9.jpg">
+      <publishTime>03/09/2021 01:20:50</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>03/10/2021 15:50:33</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>03/10/2021 15:50:33</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>03/10/2021 15:51:00</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>03/10/2021 15:51:00</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>03/10/2021 15:51:00</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>03/10/2021 15:51:00</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>03/10/2021 15:51:00</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/10/2021 15:50:33</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>03/10/2021 15:51:00</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>03/10/2021 15:51:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.js">
+      <publishTime>03/10/2021 15:51:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.js">
+      <publishTime>03/10/2021 15:51:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.map">
+      <publishTime>03/10/2021 15:51:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.js">
+      <publishTime>03/10/2021 15:51:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.js">
+      <publishTime>03/10/2021 15:51:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.map">
+      <publishTime>03/10/2021 15:51:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.js">
+      <publishTime>03/15/2021 00:01:40</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.min.js">
+      <publishTime>03/15/2021 00:01:39</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>03/10/2021 15:51:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>03/10/2021 15:51:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>03/10/2021 15:51:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>03/10/2021 15:51:27</publishTime>
+    </File>
+    <File Include="Scripts/js/bootstrap-datepicker.min.js">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Scripts/js/bootstrap.min.js">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Scripts/js/google_map.js">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Scripts/js/jquery.countTo.js">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Scripts/js/jquery.easing.1.3.js">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Scripts/js/jquery.easypiechart.min.js">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Scripts/js/jquery.magnific-popup.min.js">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Scripts/js/jquery.min.js">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Scripts/js/jquery.stellar.min.js">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Scripts/js/jquery.waypoints.min.js">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Scripts/js/magnific-popup-options.js">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Scripts/js/main.js">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Scripts/js/modernizr-2.6.2.min.js">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Scripts/js/owl.carousel.min.js">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Scripts/js/respond.min.js">
+      <publishTime>02/15/2018 00:20:54</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>03/10/2021 15:51:22</publishTime>
+    </File>
+    <File Include="Views/Aswan/Index.cshtml">
+      <publishTime>03/25/2021 15:03:55</publishTime>
+    </File>
+    <File Include="Views/Aswan/PlaceDetails.cshtml">
+      <publishTime>03/25/2021 15:01:30</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>03/10/2021 15:50:33</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>03/24/2021 23:28:24</publishTime>
+    </File>
+    <File Include="Views/Home/ErrorPageNotFound.cshtml">
+      <publishTime>03/25/2021 15:47:15</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>03/24/2021 23:23:15</publishTime>
+    </File>
+    <File Include="Views/Luxor/Index.cshtml">
+      <publishTime>03/25/2021 15:04:07</publishTime>
+    </File>
+    <File Include="Views/Luxor/PlaceDetails.cshtml">
+      <publishTime>03/25/2021 15:05:21</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>03/25/2021 15:44:32</publishTime>
+    </File>
+    <File Include="Views/Shared/_AsswanPlaces.cshtml">
+      <publishTime>03/25/2021 14:59:28</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>03/25/2021 15:18:17</publishTime>
+    </File>
+    <File Include="Views/Shared/_LuxorPlaces.cshtml">
+      <publishTime>03/25/2021 14:59:14</publishTime>
+    </File>
+    <File Include="Views/Shared/_LuxorProgram.cshtml">
+      <publishTime>03/24/2021 22:21:07</publishTime>
+    </File>
+    <File Include="Views/Tours/BookTour.cshtml">
+      <publishTime>03/24/2021 23:15:41</publishTime>
+    </File>
+    <File Include="Views/Tours/Index.cshtml">
+      <publishTime>03/25/2021 15:06:37</publishTime>
+    </File>
+    <File Include="Views/Tours/TourDetails.cshtml">
+      <publishTime>03/25/2021 15:06:55</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>03/25/2021 15:28:29</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>03/10/2021 15:50:33</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/25/2021 15:48:56</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
